@@ -14,4 +14,7 @@ require dir + 'rightscale/deployments'
 require dir + 'rightscale/servers'
 require dir + 'rightscale/right_scripts'
 require dir + 'rightscale/statuses'
+require dir + 'rightscale/server_arrays'
 
+# HashWithIndifferentAccess -- used by server_arrays
+require(dir + 'support/hash_with_indifferent_access') unless defined?(HashWithIndifferentAccess)

@@ -34,6 +34,10 @@ module RightScale
       @servers ||= Servers.new(self)
     end
     
+    def server_arrays
+      @server_arrays ||= ServerArrays.new(self, :resource => "server_arrays")
+    end
+    
     def statuses
       @statuses ||= Statuses.new(self)
     end
