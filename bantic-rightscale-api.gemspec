@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{bantic-rightscale-api}
-  s.version = "0.2.0"
+  s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["David Michael", "Cory Forsyth"]
@@ -16,11 +16,11 @@ Gem::Specification.new do |s|
     "README.markdown"
   ]
   s.files = [
-    ".gitignore",
-     "README.markdown",
+    "README.markdown",
      "Rakefile",
      "VERSION",
-     "lib/rightscale.rb",
+     "bantic-rightscale-api.gemspec",
+     "lib/bantic-rightscale-api.rb",
      "lib/rightscale/api.rb",
      "lib/rightscale/client.rb",
      "lib/rightscale/deployments.rb",
@@ -28,8 +28,7 @@ Gem::Specification.new do |s|
      "lib/rightscale/server_arrays.rb",
      "lib/rightscale/servers.rb",
      "lib/rightscale/statuses.rb",
-     "lib/support/hash_with_indifferent_access.rb",
-     "rightscale-api.gemspec"
+     "lib/support/hash_with_indifferent_access.rb"
   ]
   s.homepage = %q{http://github.com/bantic/rightscale-api}
   s.rdoc_options = ["--charset=UTF-8"]
