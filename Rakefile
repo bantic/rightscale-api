@@ -6,6 +6,7 @@ begin
     gemspec.description = "A Ruby Wrapper for the RightScale API"
     gemspec.email = "cory.forsyth@gmail.com"
     gemspec.homepage = "http://github.com/bantic/rightscale-api"
+    gemspec.add_dependency "httparty", ">= 0"
     gemspec.authors = ["David Michael","Cory Forsyth"]
   end
   Jeweler::GemcutterTasks.new
